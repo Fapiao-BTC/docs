@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfapiao=self.webpackChunkfapiao||[]).push([[1812],{6443:e=>{e.exports=JSON.parse('{"title":"Documents","slug":"/category/documents","permalink":"/docs/category/documents","navigation":{"previous":{"title":"Fapiao for BTC","permalink":"/docs/English/help"},"next":{"title":"Development preparation","permalink":"/docs/English/list/1"}}}')}}]);
