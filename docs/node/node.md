@@ -1,45 +1,9 @@
 # 运行节点
 
-## 本地节点
+## 下载地址
 
-### Windows
-
-```batch
-https://github.com/Fapiao-BTC/release/releases/tag/FpLocal
-```
-
-### Linux
-
-```batch
-http://localhost:3000/docs/node/
-```
-
-## TestNet
-
-### Windows
-
-```batch
-http://localhost:3000/docs/node/
-```
-
-### Linux
-
-```batch
-http://localhost:3000/docs/node/
-```
-
-## MainNet
-
-### Windows
-
-```batch
-http://localhost:3000/docs/node/
-```
-
-### Linux
-
-```batch
-http://localhost:3000/docs/node/
+```bash
+https://github.com/Fapiao-BTC/release/releases
 ```
 
 ## 配置项
