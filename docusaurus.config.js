@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Fapiao for BTC',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Let Bitcoin Complete Smart Contracts',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -111,7 +111,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Fapiao, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()}, Inc. Built with Fapiao.`,
       },
       prism: {
         theme: prismThemes.github,

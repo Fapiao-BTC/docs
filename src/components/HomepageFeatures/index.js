@@ -8,28 +8,25 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+		Using JavaScript as a development language, simple, fast, supports arbitrary numbers
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Ensure safety',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+		All contracts and instructions are stored on the chain and you can derive it any way you want.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Decentralized network',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Anyone can run Fp nodes to join the network without worrying about losing your data
       </>
     ),
   },
