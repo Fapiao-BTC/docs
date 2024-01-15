@@ -111,7 +111,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()}, Inc. Built with Fapiao.`,
+        copyright: `© ${new Date().getFullYear()} Fapiao, Inc.`,
       },
       prism: {
         theme: prismThemes.github,

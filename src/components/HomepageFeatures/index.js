@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-		Using JavaScript as a development language, simple, fast, supports arbitrary numbers
+		Using JavaScript as a development language, simple, fast, supports random numbers
       </>
     ),
   },
