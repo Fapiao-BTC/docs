@@ -25,9 +25,8 @@ const script = [
 	'OP_ENDIF'
 ]
 
-//交易对象
-//OutAddress in TestNet: tb1pytjz9kryy8zf7p3s975j88xu0xt6e044a9v932eva5g9u5umdq7srt4skh
-//OutAddress in MainNet: tb1pytjz9kryy8zf7p3s975j88xu0xt6e044a9v932eva5g9u5umdq7srt4skh
+//OutAddress in TestNet: tb1qltgkhz7hkpmlezvdtdf9k07fgtxqrrdj546qy3
+//OutAddress in MainNet: bc1qltgkhz7hkpmlezvdtdf9k07fgtxqrrdj7npnlz
 
 const tx_data = await tapScript.Tx.create({
 	version: 2,
@@ -40,9 +39,10 @@ const tx_data = await tapScript.Tx.create({
 })
 
 ```
+
 :::caution
-- **TestNet:  tb1pytjz9kryy8zf7p3s975j88xu0xt6e044a9v932eva5g9u5umdq7srt4skh**
-- **MainNet:  tb1pytjz9kryy8zf7p3s975j88xu0xt6e044a9v932eva5g9u5umdq7srt4skh**
+- **TestNet:  tb1qltgkhz7hkpmlezvdtdf9k07fgtxqrrdj546qy3**
+- **MainNet:  bc1qltgkhz7hkpmlezvdtdf9k07fgtxqrrdj7npnlz**
 :::
 
 
