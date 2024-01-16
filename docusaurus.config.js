@@ -31,17 +31,13 @@ const config = {
 	// Even if you don't use internationalization, you can use this field to set
 	// useful metadata like html lang. For example, if your site is Chinese, you
 	// may want to replace "en" with "zh-Hans".
-	i18n: {
-		defaultLocale: 'en',
-		locales: ['en', 'zh-CN']
-	},
 
 	presets: [
 		[
 			'@docusaurus/preset-classic',
 			({
 				docs: {
-					path: 'i18n/en',
+					path: 'docs/en',
 					routeBasePath: '/',
 					sidebarPath: './sidebars.js',
 					// Please change this to your repo.
@@ -59,7 +55,7 @@ const config = {
 			'@docusaurus/plugin-content-docs',
 			{
 				id: 'zh-CN',
-				path: 'i18n/zh-CN',
+				path: 'docs/zh-CN',
 				routeBasePath: 'zh-CN',
 				sidebarPath: './sidebars.js',
 				// ... other options
@@ -103,7 +99,7 @@ const config = {
 						title: 'Docs',
 						items: [{
 							label: 'Help Docs',
-							to: 'docs/help',
+							to: '/help',
 						}, ],
 					},
 					{
