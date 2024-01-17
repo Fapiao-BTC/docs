@@ -110,7 +110,7 @@ const config = {
 							},
 							{
 								label: 'Twitter',
-								href: 'https://twitter.com/@FapiaoOrg',
+								href: 'https://twitter.com/FapiaoOrg',
 							},
 						],
 					},
