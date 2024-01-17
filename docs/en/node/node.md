@@ -28,3 +28,18 @@ CertPath: rpc node connection certificate
 
 rpc and CertPath can be empty when running the local test environment
 ```
+
+
+## Port
+
+**Local**
+ - Fp: 8765
+ - InfluxDB: 9999
+
+**TestNet**
+ - Fp: 8763
+ - InfluxDB: 8087
+
+**MainNet**
+ - Fp: 8761
+ - InfluxDB: 8086

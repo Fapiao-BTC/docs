@@ -28,3 +28,17 @@ CertPath: rpc节点连接证书
 
 运行本地测试环境时rpc、CertPath可为空
 ```
+
+## 端口占用
+
+**本地测试**
+ - Fp: 8765
+ - InfluxDB: 9999
+
+**测试网**
+ - Fp: 8763
+ - InfluxDB: 8087
+
+**正式网**
+ - Fp: 8761
+ - InfluxDB: 8086
