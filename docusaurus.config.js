@@ -106,11 +106,11 @@ const config = {
 						title: 'Community',
 						items: [{
 								label: 'Discord',
-								href: 'https://discordapp.com/invite/docusaurus',
+								href: 'https://discord.gg/7d9KzXkKqp',
 							},
 							{
 								label: 'Twitter',
-								href: 'https://twitter.com/docusaurus',
+								href: 'https://twitter.com/@FapiaoOrg',
 							},
 						],
 					},
