@@ -157,12 +157,6 @@ You can use any method to perform deduction from the block number starting from 
 Anyone can run Fp node
 ```
 
-### What is the native token of Fp?
-
-```bash
-We have not issued tokens and do not intend to
-Please do not believe any projects that use Fp native tokens as their promotional slogans
-```
 
 ### Follow-up plan
 
