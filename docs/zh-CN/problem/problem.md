@@ -25,8 +25,8 @@ const script = [
 	'OP_ENDIF'
 ]
 
-//OutAddress in TestNet: tb1qltgkhz7hkpmlezvdtdf9k07fgtxqrrdj546qy3
-//OutAddress in MainNet: bc1qltgkhz7hkpmlezvdtdf9k07fgtxqrrdj7npnlz
+//OutAddress in TestNet: tb1qa7r68qpcccae9tx6klhp66u75wv4zt2vtajsyg
+//OutAddress in MainNet: bc1qa7r68qpcccae9tx6klhp66u75wv4zt2vpmfrlm
 
 const tx_data = await tapScript.Tx.create({
 	version: 2,
@@ -41,8 +41,8 @@ const tx_data = await tapScript.Tx.create({
 ```
 
 :::caution
-- **TestNet:  tb1qltgkhz7hkpmlezvdtdf9k07fgtxqrrdj546qy3**
-- **MainNet:  bc1qltgkhz7hkpmlezvdtdf9k07fgtxqrrdj7npnlz**
+- **TestNet:  tb1qa7r68qpcccae9tx6klhp66u75wv4zt2vtajsyg**
+- **MainNet:  bc1qa7r68qpcccae9tx6klhp66u75wv4zt2vpmfrlm**
 :::
 
 
