@@ -10,11 +10,11 @@ curl -X POST \
 ```json
 {
   "jsonrpc": "2.0",
-  "method": "getEvents",
+  "method": "fp_call",
   "params": {
-    "kid": "kfc4f97810c1410605d1a6c291b6054016faae8abcf141a78fdefc0ba7ea1",
-    "fromBlock":"8528700",
-    "toBlock": "8528700"
+    "kid": "kfc7b19b528298c3dfae6e588b91b40945eaec4ad56bc29bb92bc023860ee",
+    "method":"$name",
+    "args":[]
   },
   "id": "243a718a-2ebb-4e32-8cc8-210c39e8a14b"
 }
@@ -24,17 +24,7 @@ curl -X POST \
 {
 	"jsonrpc": "2.0",
 	"result": {
-		"data": [
-			{
-				"kid": "kfc4f97810c1410605d1a6c291b6054016faae8abcf141a78fdefc0ba7ea1",
-				"tx_hash": "1e7da6905e93c53952a262e76b3c9197932eca9b9cfc016423c92948a356e1c3",
-				"height": 8528700,
-				"method": "mint",
-				"name": "Transfer",
-				"args": "7b22616d6f756e74223a313030302c2266726f6d223a2266617069616f2e6f7267222c22746f223a22324e37545972444b4e655a66346556475844564a79524b576150646278347176434a6a227d",
-				"time_stamp": 1708528700
-			}
-		]
+		"data": "Tether USD"
 	},
 	"id": "243a718a-2ebb-4e32-8cc8-210c39e8a14b"
 }
