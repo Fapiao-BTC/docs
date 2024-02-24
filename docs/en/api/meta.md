@@ -6,7 +6,7 @@ sidebar_position: 9
 
 ## Interface overview
 
-This interface provides access to the ABI and KIP standards based on KID.
+This interface provides the ability to obtain the corresponding ABI and KIP standards based on KID.
 
 ## Request parameters
 

@@ -6,7 +6,7 @@ sidebar_position: 9
 
 ## 接口概述
 
-该接口提供根据KID,获取对于的ABI和KIP标准
+该接口提供根据KID,获取对应的ABI和KIP标准
 
 ## 请求参数
 
