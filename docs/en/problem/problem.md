@@ -10,6 +10,18 @@
 
 You can use the BTC related js library to build a Taproot transaction that complies with the Fp protocol rules and broadcast it to the chain.
 
+//JavaScript Source Code
+let javaScript= '...'
+
+
+//Operation
+let callData = {
+	kid: 'kid',
+	method: 'method',
+	args: [...args],
+}
+
+
 //Script example
 const script = [
 	'Your Pubkey',
@@ -20,7 +32,7 @@ const script = [
 	'01', 
 	ec.encode('send' || 'deploy'), 
 	'OP_0', 
-	ec.encode('JavaScript Source Code' || JSON.stringify(callData)),
+	ec.encode(javaScript || JSON.stringify(callData)),
 	'OP_ENDIF'
 ]
 

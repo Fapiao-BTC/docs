@@ -11,6 +11,18 @@
 
 你可以使用BTC相关js库去构建一个符合Fp协议规则的Taproot交易,并将它广播上链.
 
+//JavaScript Source Code
+let javaScript= '...'
+
+
+//Operation
+let callData = {
+	kid: 'kid',
+	method: 'method',
+	args: [...args],
+}
+
+
 //脚本示例
 const script = [
 	'Your Pubkey',
@@ -21,7 +33,7 @@ const script = [
 	'01', 
 	ec.encode('send' || 'deploy'), 
 	'OP_0', 
-	ec.encode('JavaScript Source Code' || JSON.stringify(callData)),
+	ec.encode(javaScript || JSON.stringify(callData)),
 	'OP_ENDIF'
 ]
 
