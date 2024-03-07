@@ -152,3 +152,49 @@ curl -X POST \
 	"id": "243a718a-2ebb-4e32-8cc8-210c39e8a14b"
 }
 ```
+
+
+## abi
+```json
+{
+  "jsonrpc": "2.0",
+  "method": "abi",
+  "params": {
+    "kid": "kfcd266d91d0c96ca1cdc357f576571b26a662a7fa"
+  },
+  "id": "243a718a-2ebb-4e32-8cc8-210c39e8a14b"
+}
+```
+
+```json
+{
+	"jsonrpc": "2.0",
+	"result": {
+		"data": {
+			"abi": "[{\"name\":\"$name\",\"params\":[]},{\"name\":\"$symbol\",\"params\":[]},{\"name\":\"$baseUrl\",\"params\":[]},{\"name\":\"$balanceOf\",\"params\":[\"address\"]},{\"name\":\"$ownerOf\",\"params\":[\"tokenId\"]},{\"name\":\"$tokenURI\",\"params\":[\"tokenId\"]},{\"name\":\"$getApproved\",\"params\":[\"tokenId\"]},{\"name\":\"$isApprovedForAll\",\"params\":[\"owner\",\"operator\"]},{\"name\":\"mint\",\"params\":[\"data\"]},{\"name\":\"transfer\",\"params\":[\"to\",\"tokenId\"]},{\"name\":\"transferFrom\",\"params\":[\"from\",\"to\",\"tokenId\"]},{\"name\":\"approve\",\"params\":[\"to\",\"tokenId\"]},{\"name\":\"setApprovalForAll\",\"params\":[\"operator\",\"approval\"]}]",
+			"kip": "K721"
+		}
+	},
+	"id": "243a718a-2ebb-4e32-8cc8-210c39e8a14b"
+}
+```
+
+## version
+```json
+{
+  "jsonrpc": "2.0",
+  "method": "version",
+  "id": "243a718a-2ebb-4e32-8cc8-210c39e8a14b"
+}
+```
+
+```json
+{
+	"jsonrpc": "2.0",
+	"result": {
+		"data": "1.0.0"
+	},
+	"id": "243a718a-2ebb-4e32-8cc8-210c39e8a14b"
+}
+```
+
